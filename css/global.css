@@ -45,7 +45,6 @@
 
 .footer-section__card {
   padding-right: 10px;
-  margin-right: 10px;
 }
 
 .footer-section__title {
@@ -54,6 +53,39 @@
   margin-bottom: 10px;
 }
 
+.footer-section__subtitle {
+  color: #DB7A4E;
+  font-size: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-section__text {
+  color: #335576;
+}
+
 .destinationHours {
   display: flex;
+}
+
+.destinationHours__daysAndTimes {
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 30px;
+}
+
+.social-icons__image {
+  margin-right: 20px;
+}
+
+.social-icons__image img {
+  height: 20px;
 }
