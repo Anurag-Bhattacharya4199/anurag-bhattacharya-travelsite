@@ -40,3 +40,58 @@
 .mainNavigation__navLink-active {
   border-bottom: #DB7A4E 3px solid;
 }
+
+.footer-section {
+  background-color: #FEFAF5;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-section__footerContent {
+  margin: 20px;
+}
+
+.footer-section__card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-section__title {
+  color: #335576;
+  padding-bottom: 10px;
+}
+
+.footer-section__subtitle {
+  color: #DB7A4E;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.destinationHours {
+  display: flex;
+}
+
+.footer-section__text {
+  color: #335576;
+}
+
+.destinationHours__daysAndTimes {
+  margin-right: 10px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons__image {
+  margin-right: 20px;
+}
+
+.social-icons__image img {
+  margin-top: 20px;
+  height: 35%;
+}
