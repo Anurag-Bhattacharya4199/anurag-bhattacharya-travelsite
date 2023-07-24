@@ -19,8 +19,7 @@
 }
 
 .main-navigation {
-  margin-left: 30rem;
-  margin-right: 1.25rem;
+  margin-left: 60rem;
 }
 
 .main-navigation ul li {
@@ -46,6 +45,7 @@
   background-color: #FEFAF5;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-section__card {
@@ -97,43 +97,4 @@
 
 .social-icons__image img {
   height: 20px;
-}
-
-.hero-section {
-  background-color: #FEFAF5;
-}
-
-.hero-section__content {
-  display: flex;
-}
-
-.hero-section__title {
-  text-align: left;
-  color: #335576;
-  width: 70%;
-  margin-bottom: 2rem;
-}
-
-.hero-section__description {
-  text-align: left;
-  color: #335576;
-  width: 140%;
-  margin-bottom: 2rem;
-}
-
-.hero-section__buttonWrapper {
-  display: flex;
-  align-items: center;
-}
-
-.hero-section__button {
-  background-color: #DB7A4E;
-  color: #FFFFFF;
-  padding: 1rem;
-  width: 40%;
-  border-radius: 2rem;
-}
-
-.hero-section__image {
-  height: 150px;
 }
