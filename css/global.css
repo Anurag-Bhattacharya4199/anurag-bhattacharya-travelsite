@@ -9,30 +9,35 @@
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .top-header__headerTitle {
   color: #335576;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 4rem;
+}
+
+.main-navigation {
+  margin-left: 30rem;
+  margin-right: 1.25rem;
 }
 
 .main-navigation ul li {
   display: inline;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .main-navigation__navLink a {
   color: black;
-  margin-right: 10px;
+  margin-right: 1rem;
   text-decoration: none;
-  padding-bottom: 10px;
+  padding-bottom: 0.5rem;
 }
 
 .main-navigation__navLink-active {
-  border-bottom: 5px solid #DB7A4E;
+  border-bottom: 0.3rem solid #DB7A4E;
 }
 
 .footer-section {
@@ -44,20 +49,24 @@
 }
 
 .footer-section__card {
-  padding-right: 10px;
+  padding-right: 3rem;
+}
+
+.contact-card {
+  margin-left: 5rem;
 }
 
 .footer-section__title {
   color: #335576;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-section__subtitle {
   color: #DB7A4E;
-  font-size: 10px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+  font-size: 0.5rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .footer-section__text {
@@ -69,8 +78,8 @@
 }
 
 .destinationHours__daysAndTimes {
-  padding-right: 5px;
-  margin-right: 5px;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .social-icons a {
@@ -79,11 +88,11 @@
 
 .social-icons {
   display: flex;
-  margin-top: 30px;
+  margin-top: 1.5rem;
 }
 
 .social-icons__image {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .social-icons__image img {
