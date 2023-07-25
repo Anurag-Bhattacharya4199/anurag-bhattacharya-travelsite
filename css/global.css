@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.topHeader a {
+  text-decoration: none;
+}
+
 .topHeader__headerTitle {
   color: #335576;
   padding: 10px;
