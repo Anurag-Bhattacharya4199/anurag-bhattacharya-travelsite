@@ -9,7 +9,6 @@
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .topHeader a {
@@ -23,12 +22,12 @@
 }
 
 .mainNavigation {
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin-left: 700px;
 }
 
 .mainNavigation__navLink {
-  margin: 10px;
+  margin-right: 10px;
 }
 
 .mainNavigation ul li {
