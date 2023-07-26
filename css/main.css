@@ -51,3 +51,43 @@
   width: 200px;
   height: 35px;
 }
+
+.recommendationsSection__content {
+  padding: 20px;
+}
+
+.recommendationsSection__title {
+  color: #335576;
+  margin-bottom: 20px;
+}
+
+.reccomendationsCards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.reccomendationsCards_Card.hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+}
+
+.recommendationsCards__Card.iceland {
+  background-image: url("../assets/images/iceland.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
+
+.recommendationsCards__Card.greece {
+  background-image: url("../assets/images/greece.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
