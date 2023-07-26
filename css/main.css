@@ -1,50 +1,50 @@
-.hero-section {
+.heroSection {
   background-color: #FEFAF5;
 }
 
-.hero-section__content {
+.heroSection__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.hero-section__text {
+.heroSection__text {
   display: flex;
   flex-direction: column;
   padding: 20px;
   margin: 20px;
 }
 
-.hero-section__title {
+.heroSection__title {
   color: #335576;
   text-align: left;
   margin-bottom: 20px;
   width: 250px;
 }
 
-.hero-section__description {
+.heroSection__description {
   color: #335576;
   text-align: left;
   margin-bottom: 20px;
   width: 650px;
 }
 
-.hero-section__imageSection img {
+.heroSection__imageSection img {
   height: 60%;
   width: 60%;
 }
 
-.hero-section__imageSection {
+.heroSection__imageSection {
   padding: 20px;
   margin: 20px;
 }
 
-.hero-section__buttonWrapper {
+.heroSection__buttonWrapper {
   display: flex;
   text-align: center;
 }
 
-.hero-section__button {
+.heroSection__button {
   background-color: #DB7A4E;
   color: #FFFFFF;
   border-radius: 40px;
