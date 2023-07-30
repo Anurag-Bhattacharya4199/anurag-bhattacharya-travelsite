@@ -1,3 +1,6 @@
+/*All Destination Information Section Styles*/
+
+/*Destination Information Section Styles*/
 .destinationInformation {
   background-size: cover;
   background-position: center;
@@ -6,26 +9,29 @@
   width: 100%;
 }
 
+/*Greece Destination Page Style*/
 .destinationInformation.greece-background {
   background-image: url("../assets/images/greece.jpg");
 }
 
+/*Hawaii Destination Page Style*/
 .destinationInformation.hawaii-background {
   background-image: url("../assets/images/hawaii.jpg");
 }
 
+/*Iceland Destination Page Style*/
 .destinationInformation.iceland-background {
   background-image: url("../assets/images/iceland.jpg");
 }
 
-.destinationInformation.greece {
-  background-image: url("../assets/images/greece.jpg");
-}
+/*All Destination Schedule Styles*/
 
+/*Destination Itinerary Section Styles*/
 .destinationsCard.itinerary {
   background-color: #FFFFFF;
 }
 
+/*Destination Itinerary Section Content Styles*/
 .destinationInformation__content {
   display: flex;
   flex-direction: column;
@@ -33,29 +39,33 @@
   margin: 20px;
 }
 
+/*Destination Itinerary Section Title Styles*/
 .destinationInformation__title {
   color: #FFFFFF;
   font-size: 55px;
 }
 
+/*Schedule Title Styles*/
 .destinationsCard__title {
   margin-top: 10px;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
 }
 
+/*Activity List Item Styles*/
 .destinationsCard__activity li {
   list-style: none;
 }
 
+/*Activity Itinerary Content Wrapper Styles*/
 .destinationsCard__activityItinerary {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 5px;
   position: relative;
 }
 
+/*Individual Activity Itinerary Styles*/
 .destinationsCard__activity {
   background-color: #FEFAF5;
   padding: 10px;
