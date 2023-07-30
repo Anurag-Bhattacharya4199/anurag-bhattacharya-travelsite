@@ -51,6 +51,16 @@
   border-bottom: 3px solid #DB7A4E;
 }
 
+/*Header Navigation Link Other Links Styles*/
+.headerNavigation__link-hidden {
+  border-bottom: 3px hidden #DB7A4E;
+}
+
+/*Header Navigation Link Other Links Animation Styles*/
+.headerNavigation__link-hidden:hover {
+  border-bottom: 3px solid #DB7A4E;
+}
+
 /*Header Navigation Link Text Styles*/
 .headerNavigation__link a {
   text-decoration: none;

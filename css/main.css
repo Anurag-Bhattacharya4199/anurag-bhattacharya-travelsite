@@ -47,13 +47,20 @@
   width: 650px;
 }
 
-/*Hero Section Button Styles*/
-.heroSection__button {
+/*Shared Hero Section Button & Submit Button Styles*/
+.heroSection__button,
+.submit-button {
   background-color: #DB7A4E;
   color: #FFFFFF;
   border-radius: 40px;
   width: 200px;
   height: 35px;
+}
+
+/*Shared Hero Section Button & Submit Button On Hover Styles*/
+.heroSection__button:hover,
+.submit-button:hover {
+  cursor: pointer;
 }
 
 /*Hero Section Image Styles*/
@@ -111,4 +118,42 @@
   font-size: 24px;
   bottom: 5%;
   right: 5%;
+}
+
+/*Destination Cards On Hover Styles*/
+.destinationsCards__hover:hover {
+  border: 5px red solid;
+}
+
+/*Shared Destination Form & Form Section Styles*/
+.formSection__content,
+.destinationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Form Section Title Styles*/
+.formSection__title {
+  color: #335576;
+  font-size: 55px;
+}
+
+/*Destination Form Styles*/
+.destinationForm {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Form Input Styles*/
+.formLabel {
+  background-color: #FEFAF5;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 175px;
+  text-align: center;
 }

@@ -1,21 +1,9 @@
-<!--
-Project Name: Travel Site
-Name: Anurag Bhattacharya
-Description:
-This is the Main/Index Page of the Travel Site
--->
-
 <!DOCTYPE html>
 <html lang="en">
-  <!--Head Meta Data-->
   <head>
-    <!--Meta Data Information-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--Website Page Title-->
-    <title>Travel Site Home Page</title>
-
+    <title>Destination Form</title>
     <!--Stylesheets Links-->
     <!--Global Stylesheet-->
     <link rel="stylesheet" href="./css/global.css" />
@@ -23,8 +11,6 @@ This is the Main/Index Page of the Travel Site
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-
-  <!--Whole Body of HTML-->
   <body>
     <!--Header Section-->
     <header class="headerSection">
@@ -63,68 +49,47 @@ This is the Main/Index Page of the Travel Site
       </nav>
     </header>
 
-    <!--Hero Section-->
-    <section class="heroSection">
-      <!--Hero Section Content-->
-      <div class="heroSection__content">
-        <!--Hero Section Slogan Section-->
-        <article class="heroSection__slogan">
-          <!--Hero Section Slogan Title-->
-          <h1 class="heroSection__sloganTitle">
-            Travelling Comes With Endless Discoveries
-          </h1>
-          <!--Hero Section Slogan Description-->
-          <p class="heroSection__sloganDescription">
-            Don't let your dreams be just dreams. Experience the world by
-            booking a vacation with us now.
-          </p>
-          <!--Hero Section Button-->
-          <article class="heroSection__buttonWrapper">
-            <a href="./form.html"
-              ><button class="heroSection__button">Get Started</button></a
-            >
+    <!--Form Section-->
+    <section class="formSection">
+      <!--Form Section Content-->
+      <article class="formSection__content">
+        <!--Form Section Title-->
+        <h1 class="formSection__title">Choose Your Destination:</h1>
+        <!--Destination Form-->
+        <form action="./index.html" class="destinationForm">
+          <!--Destination Form - First Name Label-->
+          <article class="formLabel">
+            <label for="fname">First Name:</label><br />
           </article>
-        </article>
-        <!--Hero Section Image Section-->
-        <article class="heroSection__imageSection">
-          <!--Hero Section Image-->
-          <img
-            src="./assets/images/hero.png"
-            alt="Hero Image"
-            class="heroSection__image"
-          />
-        </article>
-      </div>
-    </section>
-
-    <!--Recommendations Section-->
-    <section class="recommendationsSection">
-      <!--Recommendations Section Content-->
-      <div class="recommendationsSection__content">
-        <!--Recommendations Section Title-->
-        <h1 class="recommendationsSection__title">Recommendations</h1>
-        <!--Destination Cards-->
-        <div class="destinationsCards">
-          <!--Hawaii Destination Card-->
-          <a href="./pages/hawaii.html" class="destinationsCards__hover">
-            <article class="destinationsCard hawaii-destination">
-              <p class="destinationsCard__text">Hawaii</p>
-            </article>
-          </a>
-          <!--Iceland Destination Card-->
-          <a href="./pages/iceland.html" class="destinationsCards__hover">
-            <article class="destinationsCard iceland-destination">
-              <p class="destinationsCard__text">Iceland</p>
-            </article>
-          </a>
-          <!--Greece Destination Card-->
-          <a href="./pages/greece.html" class="destinationsCards__hover">
-            <article class="destinationsCard greece-destination">
-              <p class="destinationsCard__text">Greece</p>
-            </article>
-          </a>
-        </div>
-      </div>
+          <!--Destination Form - First Name Input-->
+          <input type="text" id="fname" name="fname" /><br />
+          <!--Destination Form  - Last Name Label-->
+          <article class="formLabel">
+            <label for="lname">Last Name:</label><br />
+          </article>
+          <!--Destination Form - Last Name Input-->
+          <input type="text" id="lname" name="lname" /><br />
+          <!--Destination Form  - Email Label-->
+          <article class="formLabel">
+            <label for="email">Email:</label><br />
+          </article>
+          <!--Destination Form  - Email Input-->
+          <input type="email" id="email" name="email" /><br />
+          <!--Destination Form  - Destination Label-->
+          <article class="formLabel">
+            <label for="destination">Destination:</label><br />
+          </article>
+          <!--Destination Form  - Destination Input-->
+          <input type="text" id="destination" name="destination" /><br />
+          <!--Destination Form  - Comments Label-->
+          <article class="formLabel">
+            <label for="comments">Comments:</label><br />
+          </article>
+          <!--Destination Form  - Comments Input-->
+          <textarea name="comments" rows="4" cols="50"></textarea><br />
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+      </article>
     </section>
 
     <!--Footer Section-->
