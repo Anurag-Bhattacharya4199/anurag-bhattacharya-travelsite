@@ -4,90 +4,131 @@
   padding: 0px;
 }
 
-.topHeader {
+/*All Header Section Styles:*/
+
+/*Header Wrapper Styles*/
+.headerSection {
   width: 100%;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
 }
 
-.topHeader a {
+/*Header Links Styles*/
+.headerSection a {
   text-decoration: none;
 }
 
-.topHeader__headerTitle {
-  color: #335576;
+/*Shared Header Title & Navigation Styles*/
+.headerSection__title,
+.headerNavigation {
   padding: 10px;
   margin: 10px;
 }
 
-.mainNavigation {
-  padding: 20px;
-  margin-left: 550px;
+/*Header Title Styles*/
+.headerSection__title {
+  color: #335576;
 }
 
-.mainNavigation__navLink {
-  margin-right: 10px;
+/*Header Navigation Styles*/
+.headerNavigation {
+  margin-left: 540px;
 }
 
-.mainNavigation ul li {
-  display: inline
+/*Header Navigation List Items Styles*/
+.headerNavigation__list li {
+  display: inline;
 }
 
-.mainNavigation ul li a {
+/*Header Navigation Link Styles*/
+.headerNavigation__link {
+  margin: 10px;
+}
+
+/*Header Navigation Link Active Styles*/
+.headerNavigation__link-active {
+  border-bottom: 3px solid #DB7A4E;
+}
+
+/*Header Navigation Link Text Styles*/
+.headerNavigation__link a {
   text-decoration: none;
   padding-bottom: 5px;
   color: black;
 }
 
-.mainNavigation__navLink-active {
-  border-bottom: #DB7A4E 3px solid;
+/*All Destination Cards Styles*/
+
+.destinationsCards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.footer-section {
+/*Destination Card Styles*/
+.destinationsCard {
+  padding: 20px;
+  margin: 20px;
+  height: 300px;
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*All Footer Section Styles*/
+
+/*Footer Section Styles*/
+.footerSection {
   background-color: #FEFAF5;
 }
 
-.footer-section__content {
+/*Footer Section Content Styles*/
+.footerSection__content {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-.footer-section__card {
-  margin-right: 20px;
+/*Shared Footer Section Card and Schedule Styles*/
+.footerSection__card,
+.destinationHours__schedule {
+  margin-right: 40px;
 }
 
-.destinationHours {
-  display: flex;
-  text-align: start;
-}
-
-.destinationHours__daysAndTimes {
-  margin-right: 20px;
-}
-
-
-.social-icons {
-  display: flex;
-}
-
-.social-icons__image {
-  margin-right: 15px;
-}
-
-.social-icons__image img {
-  height: 40px;
-}
-
-.footer-section__title {
+/*Shared Footer Section Title and Text Styles*/
+.footerSection__title,
+.footerSection__text {
   color: #335576;
   margin-bottom: 15px;
 }
 
-.footer-section__subtitle {
+/*Footer Section Subtitle Styles*/
+.footerSection__subtitle {
   color: #DB7A4E;
   font-size: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+/*Shared Destination Hours and Social Icons Section Styles*/
+.destinationHours,
+.socialIcons {
+  display: flex;
+}
+
+/*Footer Section Destination Hours Styles*/
+.destinationHours {
+  text-align: start;
+}
+
+/*Footer Section Image Wrapper Styles*/
+.socialIcons__image {
+  margin-right: 20px;
+}
+
+/*Footer Section Image Styles*/
+.socialIcons__image img {
+  height: 40px;
 }

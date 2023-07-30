@@ -8,80 +8,92 @@
     <link rel="stylesheet" href="../css/destination.css" />
   </head>
   <body>
-    <header class="topHeader">
-      <a href="../index.html"
-        ><h1 class="topHeader__headerTitle">Travel Site</h1>
+    <!--Header Section-->
+    <header class="headerSection">
+      <!--Main Header Title-->
+      <a href="../index.html">
+        <h1 class="headerSection__title">Travel Site</h1>
       </a>
-      <nav class="mainNavigation">
-        <ul>
-          <li class="mainNavigation__navLink">
+
+      <!--Main Header Navigation-->
+      <nav class="headerNavigation">
+        <ul class="headerNavigation__list">
+          <!--Active Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="../index.html">Home</a>
           </li>
-          <li class="mainNavigation__navLink">
-            <a href="./hawaii.html" class="mainNavigation__navLink-active"
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
+            <a href="./hawaii.html" class="headerNavigation__link-active"
               >Hawaii</a
             >
           </li>
-          <li class="mainNavigation__navLink">
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="./iceland.html">Iceland</a>
           </li>
-          <li class="mainNavigation__navLink">
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="./greece.html">Greece</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="destinationInformation hawaii">
+
+    <section class="destinationInformation hawaii-background">
       <div class="destinationInformation__content">
         <h1 class="destinationInformation__title">Hawaii</h1>
-        <div class="destinationItenarySchedule">
-          <article class="destinationItenarySchedule__friday">
-            <h2 class="destinationItenarySchedule__title">Friday</h2>
-            <ul class="destinationItenarySchedule__activities">
-              <article class="destinationItenarySchedule__activity1">
+        <div class="destinationsCards">
+          <article class="destinationsCard itinerary">
+            <h2 class="destinationsCard__title">Friday</h2>
+            <ul class="destinationsCard__activityItinerary">
+              <article class="destinationsCard__activity">
                 <li>Breakfast</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Lunch</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Dinner</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Snorkeling</li>
               </article>
             </ul>
           </article>
-          <article class="destinationItenarySchedule__saturday">
-            <h2 class="destinationItenarySchedule__title">Saturday</h2>
-            <ul class="destinationItenarySchedule__activities">
-              <article class="destinationItenarySchedule__activity1">
+          <article class="destinationsCard itinerary">
+            <h2 class="destinationsCard__title">Saturday</h2>
+            <ul class="destinationsCard__activityItinerary">
+              <article class="destinationsCard__activity">
                 <li>Breakfast</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Lunch</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Dinner</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Snorkeling</li>
               </article>
             </ul>
           </article>
-          <article class="destinationItenarySchedule__sunday">
-            <h2 class="destinationItenarySchedule__title">Sunday</h2>
-            <ul class="destinationItenarySchedule__activities">
-              <article class="destinationItenarySchedule__activity1">
+          <article class="destinationsCard itinerary">
+            <h2 class="destinationsCard__title">Sunday</h2>
+            <ul class="destinationsCard__activityItinerary">
+              <article class="destinationsCard__activity">
                 <li>Breakfast</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Lunch</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Dinner</li>
               </article>
-              <article class="destinationItenarySchedule__activity1">
+              <article class="destinationsCard__activity">
                 <li>Snorkeling</li>
               </article>
             </ul>
@@ -89,34 +101,57 @@
         </div>
       </div>
     </section>
-    <footer class="footer-section">
-      <div class="footer-section__content">
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Contact</h1>
-          <h2 class="footer-section__subtitle">EMAIL</h2>
-          <p class="footer-section__text">info@travelsite.com</p>
+
+    <!--Footer Section-->
+    <footer class="footerSection">
+      <!--Footer Section Content-->
+      <div class="footerSection__content">
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Contact</h1>
+          <!--Footer Section Subtitle-->
+          <h2 class="footerSection__subtitle">EMAIL</h2>
+          <!--Footer Section Text-->
+          <p class="footerSection__text">info@travelsite.com</p>
         </article>
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Hours</h1>
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Hours</h1>
+          <!--Destination Hours Section-->
           <div class="destinationHours">
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">MONDAY - FRIDAY</h2>
-              <p class="footer-section__text">9:00 AM - 5:00 PM</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">MONDAY - FRIDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">9:00 AM - 5:00 PM</p>
             </div>
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">SATURDAY</h2>
-              <p class="footer-section__text">10:00 AM - 4:00 PM</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">SATURDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">10:00 AM - 4:00 PM</p>
             </div>
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">SUNDAY</h2>
-              <p class="footer-section__text">Closed</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">SUNDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">Closed</p>
             </div>
           </div>
         </article>
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Social</h1>
-          <section class="social-icons">
-            <div class="social-icons__image">
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Social</h1>
+          <!--Footer Section Social Icons-->
+          <section class="socialIcons">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.instagram.com/">
                 <img
                   src="../assets/images/icon-instagram.png"
@@ -124,12 +159,14 @@
                 />
               </a>
             </div>
-            <div class="social-icons__image">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.facebook.com/">
                 <img src="../assets/images/icon-facebook.png" alt="Facebook" />
               </a>
             </div>
-            <div class="social-icons__image">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.twitter.com/">
                 <img src="../assets/images/icon-twitter.png" alt="Twitter" />
               </a>

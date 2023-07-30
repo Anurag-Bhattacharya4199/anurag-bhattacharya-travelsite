@@ -1,49 +1,53 @@
+/*All Hero Section Styles:*/
+
+/*Hero Section Styles*/
 .heroSection {
   background-color: #FEFAF5;
 }
 
-.heroSection__content {
+/*Shared Hero Section Content & Slogan Section Styles*/
+.heroSection__content,
+.heroSection__slogan {
   display: flex;
+}
+
+/*Hero Section Content Styles*/
+.heroSection__content {
   align-items: center;
   justify-content: space-between;
 }
 
-.heroSection__text {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin: 20px;
-}
-
-.heroSection__title {
-  color: #335576;
-  text-align: left;
-  margin-bottom: 20px;
-  width: 250px;
-}
-
-.heroSection__description {
-  color: #335576;
-  text-align: left;
-  margin-bottom: 20px;
-  width: 650px;
-}
-
-.heroSection__imageSection img {
-  height: 60%;
-  width: 60%;
-}
-
+/*Shared Hero Section Slogan & Image Section Styles*/
+.heroSection__slogan,
 .heroSection__imageSection {
   padding: 20px;
   margin: 20px;
 }
 
-.heroSection__buttonWrapper {
-  display: flex;
-  text-align: center;
+/*Hero Section Slogan Section Styles*/
+.heroSection__slogan {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+/*Shared Hero Section Slogan Title & Description Styles*/
+.heroSection__sloganTitle,
+.heroSection__sloganDescription {
+  color: #335576;
+  margin-bottom: 20px;
+}
+
+/*Hero Section Slogan Title Styles*/
+.heroSection__sloganTitle {
+  width: 250px;
+}
+
+/*Hero Section Slogan Description Styles*/
+.heroSection__sloganDescription {
+  width: 650px;
+}
+
+/*Hero Section Button Styles*/
 .heroSection__button {
   background-color: #DB7A4E;
   color: #FFFFFF;
@@ -52,75 +56,56 @@
   height: 35px;
 }
 
+/*Hero Section Image Styles*/
+.heroSection__image {
+  height: 60%;
+  width: 60%;
+}
+
+/*All Recommendations Section Styles*/
+
+/*Recommendations Section Styles*/
+.recommendationsSection {
+  background-color: #FFFFFF;
+}
+
+/*Recommendations Section Content Styles*/
 .recommendationsSection__content {
   padding: 20px;
   margin: 20px;
 }
 
+/*Recommendations Section Content Title Styles*/
 .recommendationsSection__title {
   color: #335576;
   margin-bottom: 20px;
 }
 
-.recommendationsCards {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+/*Shared Destination Styles*/
+.destinationsCard.destinationsCard.hawaii-destination,
+.destinationsCard.iceland-destination,
+.destinationsCard.greece-destination {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.recommendationsCards_Card.hawaii {
+/*Destination Styles - Hawaii*/
+.destinationsCard.hawaii-destination {
   background-image: url("../assets/images/hawaii.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 20px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.hawaii-text {
-  position: absolute;
-  color: #FFFFFF;
-  font-size: 24px;
-  bottom: 5%;
-  right: 5%;
-}
-
-.recommendationsCards_Card.iceland {
+/*Destination Styles - Iceland*/
+.destinationsCard.iceland-destination {
   background-image: url("../assets/images/iceland.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.iceland-text {
-  position: absolute;
-  color: #FFFFFF;
-  font-size: 24px;
-  bottom: 5%;
-  right: 5%;
-}
-
-.recommendationsCards_Card.greece {
+/*Destination Styles - Greece*/
+.destinationsCard.greece-destination {
   background-image: url("../assets/images/greece.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 10px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.greece-text {
+/*Destination Styles Text*/
+.destinationsCard__text {
   position: absolute;
   color: #FFFFFF;
   font-size: 24px;

@@ -1,55 +1,92 @@
 <!--
-  Travel Site Headertitle needs to move to the left
-  Footer Section needs to be centered within bottom of page vertically
+Project Name: Travel Site
+Name: Anurag Bhattacharya
+Description:
+This is the Main/Index Page of the Travel Site
 -->
+
 <!DOCTYPE html>
 <html lang="en">
+  <!--Head Meta Data-->
   <head>
+    <!--Meta Data Information-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Site</title>
+
+    <!--Website Page Title-->
+    <title>Travel Site Home Page</title>
+
+    <!--Stylesheets Links-->
+    <!--Global Stylesheet-->
     <link rel="stylesheet" href="./css/global.css" />
+
+    <!--Main Stylesheet-->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
+
+  <!--Whole Body of HTML-->
   <body>
-    <header class="topHeader">
-      <a href="./index.html"
-        ><h1 class="topHeader__headerTitle">Travel Site</h1>
+    <!--Header Section-->
+    <header class="headerSection">
+      <!--Main Header Title-->
+      <a href="./index.html">
+        <h1 class="headerSection__title">Travel Site</h1>
       </a>
-      <nav class="mainNavigation">
-        <ul>
-          <li class="mainNavigation__navLink">
-            <a href="./index.html" class="mainNavigation__navLink-active"
-              >Home</a
-            >
+
+      <!--Main Header Navigation-->
+      <nav class="headerNavigation">
+        <ul class="headerNavigation__list">
+          <!--Active Navigation Link-->
+          <li class="headerNavigation__link">
+            <a href="./index.html" class="headerNavigation__link-active">
+              Home
+            </a>
           </li>
-          <li class="mainNavigation__navLink">
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="./pages/hawaii.html">Hawaii</a>
           </li>
-          <li class="mainNavigation__navLink">
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="./pages/iceland.html">Iceland</a>
           </li>
-          <li class="mainNavigation__navLink">
+
+          <!--Navigation Link-->
+          <li class="headerNavigation__link">
             <a href="./pages/greece.html">Greece</a>
           </li>
         </ul>
       </nav>
     </header>
+
+    <!--Hero Section-->
     <section class="heroSection">
+      <!--Hero Section Content-->
       <div class="heroSection__content">
-        <article class="heroSection__text">
-          <h1 class="heroSection__title">
+        <!--Hero Section Slogan Section-->
+        <article class="heroSection__slogan">
+          <!--Hero Section Slogan Title-->
+          <h1 class="heroSection__sloganTitle">
             Travelling Comes With Endless Discoveries
           </h1>
-          <p class="heroSection__description">
+
+          <!--Hero Section Slogan Description-->
+          <p class="heroSection__sloganDescription">
             Don't let your dreams be just dreams. Experience the world by
             booking a vacation with us now.
           </p>
+
+          <!--Hero Section Button-->
           <article class="heroSection__buttonWrapper">
             <button class="heroSection__button">Get Started</button>
           </article>
         </article>
+
+        <!--Hero Section Image Section-->
         <article class="heroSection__imageSection">
+          <!--Hero Section Image-->
           <img
             src="./assets/images/hero.png"
             alt="Hero Image"
@@ -58,67 +95,102 @@
         </article>
       </div>
     </section>
+
+    <!--Recommendations Section-->
     <section class="recommendationsSection">
+      <!--Recommendations Section Content-->
       <div class="recommendationsSection__content">
+        <!--Recommendations Section Title-->
         <h1 class="recommendationsSection__title">Recommendations</h1>
-        <div class="recommendationsCards">
+
+        <!--Destination Cards-->
+        <div class="destinationsCards">
+          <!--Hawaii Destination Card-->
           <a href="./pages/hawaii.html">
-            <article class="recommendationsCards_Card hawaii">
-            <p class="hawaii-text">Hawaii</p>
-          </article>
-          </a>
-          <a href="./pages/iceland.html">
-            <article class="recommendationsCards_Card iceland">
-              <p class="iceland-text">Iceland</p>
+            <article class="destinationsCard hawaii-destination">
+              <p class="destinationsCard__text">Hawaii</p>
             </article>
           </a>
+
+          <!--Iceland Destination Card-->
+          <a href="./pages/iceland.html">
+            <article class="destinationsCard iceland-destination">
+              <p class="destinationsCard__text">Iceland</p>
+            </article>
+          </a>
+
+          <!--Greece Destination Card-->
           <a href="./pages/greece.html">
-            <article class="recommendationsCards_Card greece">
-              <p class="greece-text">Greece</p>
+            <article class="destinationsCard greece-destination">
+              <p class="destinationsCard__text">Greece</p>
             </article>
           </a>
         </div>
       </div>
     </section>
-    </section>
-    <footer class="footer-section">
-      <div class="footer-section__content">
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Contact</h1>
-          <h2 class="footer-section__subtitle">EMAIL</h2>
-          <p class="footer-section__text">info@travelsite.com</p>
+
+    <!--Footer Section-->
+    <footer class="footerSection">
+      <!--Footer Section Content-->
+      <div class="footerSection__content">
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Contact</h1>
+          <!--Footer Section Subtitle-->
+          <h2 class="footerSection__subtitle">EMAIL</h2>
+          <!--Footer Section Text-->
+          <p class="footerSection__text">info@travelsite.com</p>
         </article>
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Hours</h1>
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Hours</h1>
+          <!--Destination Hours Section-->
           <div class="destinationHours">
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">MONDAY - FRIDAY</h2>
-              <p class="footer-section__text">9:00 AM - 5:00 PM</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">MONDAY - FRIDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">9:00 AM - 5:00 PM</p>
             </div>
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">SATURDAY</h2>
-              <p class="footer-section__text">10:00 AM - 4:00 PM</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">SATURDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">10:00 AM - 4:00 PM</p>
             </div>
-            <div class="destinationHours__daysAndTimes">
-              <h2 class="footer-section__subtitle">SUNDAY</h2>
-              <p class="footer-section__text">Closed</p>
+            <!--Destination Hours-->
+            <div class="destinationHours__schedule">
+              <!--Footer Section Subtitle-->
+              <h2 class="footerSection__subtitle">SUNDAY</h2>
+              <!--Footer Section Text-->
+              <p class="footerSection__text">Closed</p>
             </div>
           </div>
         </article>
-        <article class="footer-section__card">
-          <h1 class="footer-section__title">Social</h1>
-          <section class="social-icons">
-            <div class="social-icons__image">
+        <!--Footer Section Card-->
+        <article class="footerSection__card">
+          <!--Footer Section Title-->
+          <h1 class="footerSection__title">Social</h1>
+          <!--Footer Section Social Icons-->
+          <section class="socialIcons">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.instagram.com/">
                 <img src="./assets/images/icon-instagram.png" alt="Instagram" />
               </a>
             </div>
-            <div class="social-icons__image">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.facebook.com/">
                 <img src="./assets/images/icon-facebook.png" alt="Facebook" />
               </a>
             </div>
-            <div class="social-icons__image">
+            <!--Footer Section Social Icon Image-->
+            <div class="socialIcons__image">
               <a href="https://www.twitter.com/">
                 <img src="./assets/images/icon-twitter.png" alt="Twitter" />
               </a>

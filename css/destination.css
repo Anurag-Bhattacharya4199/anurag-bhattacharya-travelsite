@@ -1,5 +1,4 @@
-.destinationInformation.hawaii {
-  background-image: url("../assets/images/hawaii.jpg");
+.destinationInformation {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,24 +6,25 @@
   width: 100%;
 }
 
-.destinationInformation.iceland {
+.destinationInformation.greece-background {
+  background-image: url("../assets/images/greece.jpg");
+}
+
+.destinationInformation.hawaii-background {
+  background-image: url("../assets/images/hawaii.jpg");
+}
+
+.destinationInformation.iceland-background {
   background-image: url("../assets/images/iceland.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 750px;
-  width: 100%;
 }
 
 .destinationInformation.greece {
   background-image: url("../assets/images/greece.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 750px;
-  width: 100%;
 }
 
+.destinationsCard.itinerary {
+  background-color: #FFFFFF;
+}
 
 .destinationInformation__content {
   display: flex;
@@ -38,73 +38,27 @@
   font-size: 55px;
 }
 
-.destinationItenarySchedule {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.destinationItenarySchedule__activities li {
-  list-style: none;
-}
-
-.destinationItenarySchedule__friday {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  background-color: #FFFFFF;
-}
-
-.destinationItenarySchedule__saturday {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  background-color: #FFFFFF;
-}
-
-.destinationItenarySchedule__sunday {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-  height: 300px;
-  width: 200px;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  background-color: #FFFFFF;
-}
-
-.destinationItenarySchedule__activities {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
-
-.destinationItenarySchedule__title {
+.destinationsCard__title {
   margin-top: 10px;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
 }
 
-.destinationItenarySchedule__activity1 {
+.destinationsCard__activity li {
+  list-style: none;
+}
+
+.destinationsCard__activityItinerary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+.destinationsCard__activity {
   background-color: #FEFAF5;
   padding: 10px;
   margin-bottom: 20px;
+  width: 175px;
 }
