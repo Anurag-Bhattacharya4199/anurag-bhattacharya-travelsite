@@ -1,3 +1,14 @@
+/*
+Project Name: Travel Site
+Name: Anurag Bhattacharya
+Description:
+This is the Global Style Sheet
+Diving Deeper Notes:
+- Did not have time to make responsive, but website looks good on standard desktop size and 1280px wide
+- On Main Navigation Bar, for all links other than active link, an underline will appear on hover
+*/
+
+/*This is a Global All Styles*/
 * {
   font-family: Verdana;
   margin: 0px;
