@@ -22,8 +22,8 @@
 /*Shared Header Title & Navigation Styles*/
 .headerSection__title,
 .headerNavigation {
-  padding: 10px;
-  margin: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 /*Header Title Styles*/
@@ -33,7 +33,7 @@
 
 /*Header Navigation Styles*/
 .headerNavigation {
-  margin-left: 540px;
+  margin-left: 34rem;
 }
 
 /*Header Navigation List Items Styles*/
@@ -43,11 +43,12 @@
 
 /*Header Navigation Link Styles*/
 .headerNavigation__link {
-  margin: 10px;
+  margin: 0.5rem;
 }
 
 /*Header Navigation Link Active Styles*/
-.headerNavigation__link-active {
+.headerNavigation__link-active,
+.headerNavigation__link-hidden:hover {
   border-bottom: 3px solid #DB7A4E;
 }
 
@@ -64,7 +65,7 @@
 /*Header Navigation Link Text Styles*/
 .headerNavigation__link a {
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: 0.5rem;
   color: black;
 }
 
@@ -78,11 +79,11 @@
 
 /*Destination Card Styles*/
 .destinationsCard {
-  padding: 20px;
-  margin: 20px;
+  padding: 1.5rem;
+  margin: 1.5rem;
   height: 300px;
   width: 200px;
-  border-radius: 5px;
+  border-radius: 0.5px;
   position: relative;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
@@ -99,13 +100,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 /*Shared Footer Section Card and Schedule Styles*/
 .footerSection__card,
 .destinationHours__schedule {
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
 /*Shared Footer Section Title and Text Styles*/
@@ -118,8 +119,8 @@
 /*Footer Section Subtitle Styles*/
 .footerSection__subtitle {
   color: #DB7A4E;
-  font-size: 10px;
-  margin-bottom: 10px;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /*Shared Destination Hours and Social Icons Section Styles*/
@@ -135,10 +136,10 @@
 
 /*Footer Section Image Wrapper Styles*/
 .socialIcons__image {
-  margin-right: 20px;
+  margin-right: 1rem;
 }
 
 /*Footer Section Image Styles*/
 .socialIcons__image img {
-  height: 40px;
+  height: 55%;
 }

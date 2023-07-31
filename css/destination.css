@@ -35,21 +35,21 @@
 .destinationInformation__content {
   display: flex;
   flex-direction: column;
-  padding: 60px;
-  margin: 20px;
+  padding: 4rem;
+  margin: 2.5rem;
 }
 
 /*Destination Itinerary Section Title Styles*/
 .destinationInformation__title {
   color: #FFFFFF;
-  font-size: 55px;
+  font-size: 4rem;
 }
 
 /*Schedule Title Styles*/
 .destinationsCard__title {
-  margin-top: 10px;
+  margin-top: 0.5rem;
   border-bottom: 5px solid black;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 /*Activity List Item Styles*/
@@ -68,7 +68,7 @@
 /*Individual Activity Itinerary Styles*/
 .destinationsCard__activity {
   background-color: #FEFAF5;
-  padding: 10px;
-  margin-bottom: 20px;
-  width: 175px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  width: 75%;
 }

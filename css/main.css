@@ -20,8 +20,8 @@
 /*Shared Hero Section Slogan & Image Section Styles*/
 .heroSection__slogan,
 .heroSection__imageSection {
-  padding: 20px;
-  margin: 20px;
+  padding: 1.5rem;
+  margin: 1.5rem;
 }
 
 /*Hero Section Slogan Section Styles*/
@@ -34,7 +34,7 @@
 .heroSection__sloganTitle,
 .heroSection__sloganDescription {
   color: #335576;
-  margin-bottom: 20px;
+  margin-bottom: 2.5rem;
 }
 
 /*Hero Section Slogan Title Styles*/
@@ -52,8 +52,8 @@
 .submit-button {
   background-color: #DB7A4E;
   color: #FFFFFF;
-  border-radius: 40px;
-  width: 200px;
+  border-radius: 2.5rem;
+  width: 150px;
   height: 35px;
 }
 
@@ -78,14 +78,14 @@
 
 /*Recommendations Section Content Styles*/
 .recommendationsSection__content {
-  padding: 20px;
-  margin: 20px;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 /*Recommendations Section Content Title Styles*/
 .recommendationsSection__title {
   color: #335576;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 /*Shared Destination Styles*/
@@ -115,7 +115,7 @@
 .destinationsCard__text {
   position: absolute;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 1.5rem;
   bottom: 5%;
   right: 5%;
 }
@@ -137,14 +137,14 @@
 /*Form Section Title Styles*/
 .formSection__title {
   color: #335576;
-  font-size: 55px;
+  font-size: 3.5rem;
 }
 
 /*Destination Form Styles*/
 .destinationForm {
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
+  padding: 2.5rem;
+  margin: 2.5rem;
+  border-radius: 3rem;
   position: relative;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
@@ -152,8 +152,8 @@
 /*Form Input Styles*/
 .formLabel {
   background-color: #FEFAF5;
-  padding: 10px;
-  margin-bottom: 20px;
-  width: 175px;
+  padding: 0.5rem;
+  margin-bottom: 2.5rem;
+  width: 75%;
   text-align: center;
 }
